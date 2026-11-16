@@ -36,4 +36,4 @@ Centro Nacional de Pesquisa em Energia e Materiais (CNPEM)
 
 ### Orientação
 
-**[J. Almeida](https://github.com/jamesmalmeida)**
+Prof. Dr. Felipe David Crasto de Lima
