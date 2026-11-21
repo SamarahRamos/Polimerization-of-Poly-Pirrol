@@ -5,7 +5,7 @@ Este projeto investiga, por meio de modelos termodinâmicos, estatísticos e ele
 
 O MoS₂ é um material promissor para aplicações eletrocatalíticas, mas sua estrutura cristalina apresenta uma diferença importante de atividade entre as regiões de borda (edge sites) e o plano basal, que possui atividade catalítica limitada em sua forma pristina. Nesse contexto, a engenharia de interfaces por meio da deposição alternada de materiais surge como uma estratégia para modificar as propriedades superficiais e favorecer a transferência de cargas.
 
-A proposta do trabalho é estudar como a polimerização do pirrol, as interações polímero–solvente e os fenômenos de adsorção eletrostática influenciam a formação e a estabilidade de um filme multicamadas PPy/MoS₂. Para isso, são articulados diferentes modelos teóricos, com destaque para Flory–Schulz, Flory–Huggins e o modelo de adsorção de polieletrólitos de Joanny.
+A proposta do trabalho é estudar como a polimerização do pirrol, as interações polímero–solvente e os fenômenos de adsorção eletrostática influenciam a formação e a estabilidade de um filme multicamadas PPy/MoS₂. Para isso, são articulados diferentes modelos teóricos, com destaque para Flory–Schulz, Flory–Huggins e o modelo de adsorção de polieletrólitos de Joanny, além do acoplamento entre eles.
 
 ### Objetivo Geral
 
@@ -16,6 +16,8 @@ Desenvolver uma abordagem teórica e computacional integrada para investigar a p
 Os modelos utilizados apresentam diferentes níveis de aproximação física. A distribuição de Flory–Schulz considera uma polimerização aleatória e homogênea, enquanto a descrição de Flory–Huggins utiliza uma aproximação de campo médio para a termodinâmica das misturas.
 
 Da mesma forma, a implementação do modelo de Joanny adota simplificações para representar a adsorção e o crescimento das camadas, não descrevendo explicitamente a configuração microscópica das cadeias, as flutuações de concentração ou todas as interações entre os componentes. Em particular, a densidade de cadeias de PPy adsorvidas e a contribuição efetiva de carga do MoS₂ são tratadas como parâmetros de simulação, e não como grandezas determinadas espontaneamente pelo modelo.
+
+Ambas as limitações dos modelos anteriores são discutíveis ao caso acoplado. Em destaque, os regime de cargas é aproximado estaatisticamente e são consideradas apenas as cadeias em solução, mesmo que pelos resultados a outra fase tenha se demonstrado de interesse. É necessário reconstruir as camadas consuderando o equilíbrio de adsorção parte por parte.
 
 ### Autoria
 
